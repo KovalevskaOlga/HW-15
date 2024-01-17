@@ -2,12 +2,16 @@
   display: flex;
   flex-wrap: wrap;
   max-width: 300px;
+  outline: solid;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
 }
 .item:nth-child(1) {
   background-color: rgb(222, 82, 82);
   order: -2;
   flex-grow: 2;
   width: 150px;
+  border-top-left-radius: 15px;
 }
 .item:nth-child(2) {
   background-color: rgb(73, 177, 218);
@@ -27,8 +31,10 @@
   order: -2;
   flex-grow: 2;
   width: 150px;
+  border-top-right-radius: 15px;
 }
 .item {
   width: 98px;
   text-align: center;
+  height: 50px;
 }
